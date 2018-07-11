@@ -1,6 +1,5 @@
-from scipy.spatial import  distance
 import numpy as np
-
+from scipy.spatial import  distance
 
 def find_neighbours(pindex, triang):
     # From https://stackoverflow.com/questions/12374781/
