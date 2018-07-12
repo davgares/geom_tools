@@ -1,5 +1,7 @@
 import numpy as np
 from scipy.spatial import  distance
+from shapely.geometry import LineString, Point, Polygon
+import shapely.wkt
 
 def find_neighbours(pindex, triang):
     # From https://stackoverflow.com/questions/12374781/
